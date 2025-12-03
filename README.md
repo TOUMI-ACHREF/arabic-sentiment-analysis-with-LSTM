@@ -144,40 +144,9 @@ print(sentiment)  # Output: Positive
 
 \* \*\*Input:\*\* Preprocessed Arabic text
 
-\* \*\*Output:\*\* Sentiment label (`Positive`, `Negative`, `Neutral`)
+\* \*\*Output:\*\* Sentiment label (`Positive`, `Negative`)
 
 \* \*\*Training:\*\* Can be trained on labeled Arabic sentiment datasets.
-
-
-
----
-
-
-
-\## 📂 Project Structure
-
-
-
-```
-
-arbic-sentiment-analysis-with-LSTM/
-
-│
-
-├── data/                  # Dataset files (optional)
-
-├── models/                # Saved LSTM models
-
-├── analyze\_sentiment.py   # Main script to test sentiment
-
-├── preprocessing.py       # Text preprocessing functions
-
-├── requirements.txt       # Python dependencies
-
-└── README.md
-
-```
-
 
 
 ---
